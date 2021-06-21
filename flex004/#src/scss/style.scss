@@ -397,12 +397,12 @@ body {
         margin: 0px -15px;
     }
 
-    &__row::nth-child(even) {
-    }
-
     &__columns {
         flex: 1 1 25%;
         padding: 0px 15px;
+    }
+    &__columns:nth-child(even) {
+        align-self: flex-end;
     }
 
     &__item {
