@@ -218,3 +218,30 @@ body {
         color: $blueColor;
     }
 }
+
+.page {
+    &__sponsors-main {
+        margin: 60px 0px 145px 0px;
+    }
+}
+.sponsors-main {
+}
+.sponsors {
+    &__main-title {
+        margin: 0px 0px 50px 0px;
+        text-align: center;
+        font-family: HK Grotesk;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0.2px;
+        color: inherit;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__column {
+    }
+}
