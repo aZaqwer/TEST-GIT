@@ -249,11 +249,10 @@ body {
     &__ourtopics-main {
     }
 }
-.ourtopics-main {
-    &__container {
-    }
-}
 
+.ourtopics-main {
+    margin: 0px 0px 170px 0px;
+}
 .ourtopics {
     &__label {
         display: inline-block;
@@ -280,11 +279,12 @@ body {
     }
     &__row {
         display: flex;
+        margin: 0px auto;
     }
 
     &__columns {
         flex: 0 1 33.333%;
-        margin: 0px 0px 170px 0px;
+        padding: 0 15px;
     }
 
     &__item {
@@ -292,25 +292,25 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         height: 500px;
-        width: 360px;
+        width: 100%;
         color: #ffffff;
         padding: 0 32px;
     }
 
     &__item-01 {
         background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
-            url("../img/conference-topics/01.jpg") 0 0 / contain no-repeat;
+            url("../img/conference-topics/01.jpg") 0 0 / 100% 100% no-repeat;
         border-radius: 16px;
     }
 
     &__item-02 {
         background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
-            url("../img/conference-topics/02.jpg") 0 0 / contain no-repeat;
+            url("../img/conference-topics/02.jpg") 0 0 / 100% 100% no-repeat;
         border-radius: 16px;
     }
     &__item-03 {
         background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
-            url("../img/conference-topics/03.jpg") 0 0 / contain no-repeat;
+            url("../img/conference-topics/03.jpg") 0 0 / 100% 100% no-repeat;
         border-radius: 16px;
     }
     &__item-title {
