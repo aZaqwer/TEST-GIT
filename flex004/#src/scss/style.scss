@@ -120,7 +120,7 @@ body {
     // .future__column-title
 
     &__column-title {
-        font-family: HK Grotesk;
+        font-family: "HKGrotesk";
         font-weight: 700;
         font-size: 56px;
         letter-spacing: 0.2px;
@@ -151,7 +151,7 @@ body {
         height: 56px;
         line-height: 56px;
         text-align: center;
-        margin: 0px 0px 25px 0px;
+        margin: 0px 55px 25px 0px;
     }
 
     &__item-button::after {
@@ -188,7 +188,7 @@ body {
         line-height: 28px;
         color: #5a7184;
         margin: 0px 0px 27px 0px;
-        padding: 0px 100px 0px 0px;
+        padding: 0px 73px 0px 0px;
     }
 
     // .future__column-img
@@ -200,8 +200,8 @@ body {
     // .column__item
 
     &__item {
-        flex: 0 1 50%;
-        padding: 0 24px;
+        flex: 0 1 auto;
+        padding: 0 14px;
     }
 }
 
@@ -243,5 +243,99 @@ body {
     }
 
     &__column {
+    }
+}
+.page {
+    &__ourtopics-main {
+    }
+}
+.ourtopics-main {
+    &__container {
+    }
+}
+
+.ourtopics {
+    &__label {
+        display: inline-block;
+        background: #ebf8f3;
+        border-radius: 50px;
+        padding: 6px 17px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    &__label span {
+        color: $greenColor;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    &__title {
+        font-family: "HKGrotesk";
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.2px;
+        margin: 0px 0px 50px 0px;
+        color: inherit;
+    }
+    &__row {
+        display: flex;
+    }
+
+    &__columns {
+        flex: 0 1 33.333%;
+        margin: 0px 0px 170px 0px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 500px;
+        width: 360px;
+        color: #ffffff;
+        padding: 0 32px;
+    }
+
+    &__item-01 {
+        background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
+            url("../img/conference-topics/01.jpg") 0 0 / contain no-repeat;
+        border-radius: 16px;
+    }
+
+    &__item-02 {
+        background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
+            url("../img/conference-topics/02.jpg") 0 0 / contain no-repeat;
+        border-radius: 16px;
+    }
+    &__item-03 {
+        background: linear-gradient(180deg, rgba(24, 59, 86, 0.0001) 0%, #152532 100%),
+            url("../img/conference-topics/03.jpg") 0 0 / contain no-repeat;
+        border-radius: 16px;
+    }
+    &__item-title {
+        font-family: "HKGrotesk";
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 0.2px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    &__item-text {
+        font-size: 20px;
+        margin: 0px 0px 24px 0px;
+    }
+
+    &__item-link {
+        font-weight: 700;
+        font-size: 18px;
+        color: #1565d8;
+        margin: 0px 0px 40px 0px;
+    }
+    &__item-link::after {
+        font-family: icons;
+        content: "\e901";
+        font-size: 12px;
+        padding: 0px 0px 0px 15px;
     }
 }
