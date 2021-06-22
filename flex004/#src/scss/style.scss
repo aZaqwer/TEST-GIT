@@ -545,7 +545,9 @@ body {
     &__container {
     }
 }
-
+.label-right {
+    text-align: right;
+}
 .tickets {
     &__main-row {
         display: flex;
@@ -660,8 +662,4 @@ body {
     margin: 0px 0px 16px 0px;
     font-weight: 600;
     color: #e95432;
-}
-
-.label-r {
-    text-align: right;
 }
