@@ -100,7 +100,7 @@ body {
 }
 .future-main {
     // .future-main__container
-
+    margin: 58px 0px 0px 0px;
     &__container {
     }
 
@@ -493,7 +493,7 @@ body {
         display: flex;
         margin: 0 -24px;
         flex-wrap: wrap;
-        flex: 1 1 33.33333%;
+        //flex: 0 0 auto;
     }
 }
 
@@ -529,4 +529,8 @@ body {
         color: $doveBlueColor;
         margin: 0px 0px 0px 38px;
     }
+}
+
+.stats-counter {
+    width: 121px;
 }
