@@ -87,6 +87,7 @@ body {
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .page {
     flex: 1 1 auto;
+    background: #fff;
 }
 //===================================================================================================================================
 
@@ -444,16 +445,31 @@ body {
 
 .page {
     &__archive-main {
-        background-image: url("../img/archive.jpg") 0 0 no-repeat;
     }
 }
 .archive-main {
-    &__container {
+    ._container {
     }
 }
 
 .archive {
+    &__main-row {
+        background: url("../img/archive.png") 0 0 / auto 100% no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        height: 500px;
+        margin: 0px 0px 50px 0px;
+    }
+
     &__item {
+        height: 483px;
+        width: 562px;
+        box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        margin: -47px 73px 0px 0px;
+        padding: 56px 0px 56px 56px;
+        background-color: #fff;
+        flex: 0 0 auto;
     }
 
     &__item-label {
@@ -462,20 +478,30 @@ body {
     }
 
     &__item-title {
+        margin: 0px 0px 16px 0px;
     }
 
     &__item-text {
         font-size: 18px;
         line-height: 32px;
         color: $doveBlueColor;
+        padding: 0px 56px 0px 0px;
+        margin: 0px 0px 32px 0px;
     }
 
     &__item-stats {
+        display: flex;
+        margin: 0 -24px;
+        flex-wrap: wrap;
+        flex: 1 1 33.33333%;
     }
 }
 
 .item {
     &__stats-counter {
+        padding: 0px 24px;
+
+        margin: 0px 0px 32px 0px;
     }
 
     &__stats-num {
@@ -501,6 +527,6 @@ body {
     &__stats-name {
         font-size: 16px;
         color: $doveBlueColor;
-        margin: 0px 0px 0px 36px;
+        margin: 0px 0px 0px 38px;
     }
 }
