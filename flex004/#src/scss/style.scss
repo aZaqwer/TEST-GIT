@@ -256,6 +256,7 @@ body {
     border-radius: 50px;
     padding: 6px 17px;
     margin: 0px 0px 16px 0px;
+    font-weight: 600;
 }
 .label span {
     color: $greenColor;
@@ -438,5 +439,68 @@ body {
 
     &__foto {
         margin: 0px 0px 28px 0px;
+    }
+}
+
+.page {
+    &__archive-main {
+        background-image: url("../img/archive.jpg") 0 0 no-repeat;
+    }
+}
+.archive-main {
+    &__container {
+    }
+}
+
+.archive {
+    &__item {
+    }
+
+    &__item-label {
+        color: $blueColor;
+        background-color: #e8f0fc;
+    }
+
+    &__item-title {
+    }
+
+    &__item-text {
+        font-size: 18px;
+        line-height: 32px;
+        color: $doveBlueColor;
+    }
+
+    &__item-stats {
+    }
+}
+
+.item {
+    &__stats-counter {
+    }
+
+    &__stats-num {
+        font-family: "HKGrotesk";
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    &__stats-num::before {
+        font-family: icons;
+        content: "\e902";
+        background-color: #e1f4ec;
+        color: $greenColor;
+        font-size: 12px;
+        padding: 8px 7px;
+        border-radius: 50px;
+        margin: 0px 12px 12px 0px;
+        position: relative;
+        bottom: 7px;
+        left: 0;
+    }
+
+    &__stats-name {
+        font-size: 16px;
+        color: $doveBlueColor;
+        margin: 0px 0px 0px 36px;
     }
 }
