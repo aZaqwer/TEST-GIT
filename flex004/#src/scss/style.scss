@@ -349,7 +349,7 @@ body {
 
 .ourtopics {
     &__quote {
-        margin: 170px 0px 328px 0px;
+        margin: 170px 0px;
         padding: 0 125px;
     }
 
@@ -380,7 +380,7 @@ body {
 }
 .speakers-main {
     &__container {
-        max-width: 1140px;
+        max-width: $maxWidthContainer;
         margin: 0px auto;
     }
 }
